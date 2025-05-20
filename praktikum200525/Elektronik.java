@@ -47,8 +47,8 @@ public class Elektronik {
 
     public void display() {
         System.out.println("Kelas Elektronik");
-        System.out.println("Merek : " + merek);
-        System.out.println("Tahun Produksi : " + tahunProduksi);
-        System.out.println("Garansi : " + garansi + " tahun");
+        System.out.println("Merek : " + getMerek());
+        System.out.println("Tahun Produksi : " + getTahunProduksi());
+        System.out.println("Garansi : " + getGaransi() + " tahun");
     }
 }

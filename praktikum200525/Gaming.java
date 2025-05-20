@@ -44,7 +44,7 @@ public class Gaming extends Laptop {
         System.out.println("Garansi : " + getGaransi() + " tahun");
         System.out.println("Ukuran Layar : " + getUkuranLayar() + " inch");
         System.out.println("Kapasitas RAM : " + getKapasitasRAM() + " GB");
-        System.out.println("Kartu Grafis : " + kartuGrafis);
-        System.out.println("Refresh Rate : " + refreshRate + " Hz");
+        System.out.println("Kartu Grafis : " + getKartuGrafis());
+        System.out.println("Refresh Rate : " + getRefreshRate() + " Hz");
     }
 }

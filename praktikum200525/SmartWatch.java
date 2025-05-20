@@ -44,7 +44,7 @@ public class SmartWatch extends Smartphone {
         System.out.println("Garansi : " + getGaransi() + " tahun");
         System.out.println("Kapasitas Baterai : " + getKapasitasBaterai() + " mAh");
         System.out.println("Jumlah Kamera : " + getJumlahKamera());
-        System.out.println("Ukuran Layar : " + ukuranLayar + " inch");
-        System.out.println("Tahan Air? " + (tahanAir ? "Yes" : "No"));
+        System.out.println("Ukuran Layar : " + getUkuranLayar() + " inch");
+        System.out.println("Tahan Air? " + (isTahanAir() ? "Ya" : "No"));
     }
 }

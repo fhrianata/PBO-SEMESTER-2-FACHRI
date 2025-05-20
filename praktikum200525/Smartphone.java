@@ -42,7 +42,7 @@ public class Smartphone extends Elektronik {
         System.out.println("Merek : " + getMerek());
         System.out.println("Tahun Produksi : " + getTahunProduksi());
         System.out.println("Garansi : " + getGaransi() + " tahun");
-        System.out.println("Kapasitas Baterai : " + kapasitasBaterai + " mAh");
-        System.out.println("Jumlah Kamera : " + jumlahKamera);
+        System.out.println("Kapasitas Baterai : " + getKapasitasBaterai() + " mAh");
+        System.out.println("Jumlah Kamera : " + getJumlahKamera());
     }
 }

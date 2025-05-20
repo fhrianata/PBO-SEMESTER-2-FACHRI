@@ -42,7 +42,7 @@ public class Laptop extends Elektronik {
         System.out.println("Merek : " + getMerek());
         System.out.println("Tahun Produksi : " + getTahunProduksi());
         System.out.println("Garansi : " + getGaransi() + " tahun");
-        System.out.println("Ukuran Layar : " + ukuranLayar + " inch");
-        System.out.println("Kapasitas RAM : " + kapasitasRAM + " GB");
+        System.out.println("Ukuran Layar : " + getUkuranLayar() + " inch");
+        System.out.println("Kapasitas RAM : " + getKapasitasRAM() + " GB");
     }
 }

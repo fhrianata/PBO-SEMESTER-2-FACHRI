@@ -8,8 +8,12 @@ package praktikum200525;
  *
  * @author Ari
  */
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
         Laptop laptop = new Laptop("ROG M1", 2022, 2, 15, 16);
         System.out.println("======= Laptop =======");
         laptop.display();
@@ -22,8 +26,14 @@ public class Main {
         System.out.println("\n=== Gaming Laptop ===");
         gamingLaptop.display();
 
-        SmartWatch sw = new SmartWatch("Apple", 2023, 1, 400, 1, 2, true);
         System.out.println("\n=== SmartWatch ===");
+        System.out.print("Apakah smartwatch tahan air? (Ya/No): ");
+        String inputTahanAir = input.nextLine().trim();
+        boolean tahanAir = inputTahanAir.equalsIgnoreCase("Ya");
+
+        SmartWatch sw = new SmartWatch("Apple", 2023, 1, 400, 1, 2, tahanAir);
         sw.display();
+
+        input.close();
     }
 }
